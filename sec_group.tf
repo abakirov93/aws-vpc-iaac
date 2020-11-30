@@ -1,4 +1,4 @@
-resource "aws_security_group" "terraform-test" {
+resource "aws_security_group" "terraform-vpc" {
   name        = "test_own"
   description = "test_own"
 

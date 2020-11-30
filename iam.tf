@@ -4,6 +4,6 @@
 #   path = "/"
 # }
 
-## You can create IAM manually by going AWS account if you have an access
-## How you should create: Go to "user" then "add user" and give a user name. 
+## You can create IAM manually by going AWS account if you have an access to it.
+## How you should create: In IAM go to "user" then click "add user" and give a user name. 
 ## Choose "Select AWS access type" and go to "Set Permissions" and continue as your requirements. 

@@ -1,5 +1,5 @@
 output "vpc" {
-  value = "${aws_vpc.mytest.id}"
+  value = "${aws_vpc.bek-vpc.id}"
 }
 
 output "public Subnets" {

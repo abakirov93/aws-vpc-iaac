@@ -1,5 +1,5 @@
 resource "aws_route_table" "r" {
-  vpc_id = "${aws_vpc.mytest.id}"
+  vpc_id = "${aws_vpc.bek-vpc.id}"
   route {
     cidr_block = "0.0.0.0/0"
     gateway_id = "${aws_internet_gateway.gw.id}"
